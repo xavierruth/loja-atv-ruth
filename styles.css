@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+   body{
+    background-color: #D9D9D9;
+    background-size: auto;
+
+
+
+   }
+
+  h1{  /* font-family: 'Baloo 2', cursive;
+    font-family: 'Roboto', sans-serif; */ 
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    background-image: url(./img/meowmeow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 880px;
+
+
+}
+nav{
+    background-color: rgb(59, 72, 119);
+    display:grid;
+    place-items: center;
+
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.2s ease-in;
+}
+
+
+.card{
+    background-color: rgb(226, 226, 226);
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #9e9b8e;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    margin-left: 150px;
+    float: left;
+    vertical-align: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.brinquedo{
+    height: 190px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card h3{
+    font-size: 16px;
+    color:rgb(63, 63, 63); 
+    text-align: center;
+}
+
+.card button{
+    background-color: blue;
+    height: 30px;
+    border: none;
+    padding: 6px; 
+    width: 80%; 
+    color:beige; 
+    font-size: 15px; 
+    font-weight: bold;
+    border-radius: 20px ;
+}
+
